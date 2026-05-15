@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* BOX */
+.box {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* INPUT */
+input,
+select,
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* BUTTON */
+button {
+    background: #667eea;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #5a67d8;
+}
+
+/* TEXT */
+h2,
+h3,
+h4,
+p {
+    text-align: center;
+}
+
+#statusMsg {
+    color: yellow;
+    font-weight: bold;
+}
+
+#welcomeUser {
+    color: white;
+}
+
+#datetime {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* LIST */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin: 12px 0;
+}
+
+li button {
+    width: auto;
+    padding: 8px 12px;
+    margin-right: 5px;
+}
+
+#savings {
+    color: green;
+    font-weight: bold;
+}
+
+#warning {
+    font-weight: bold;
+}
